@@ -17,6 +17,7 @@
 <div class="container">
     @if(count($errors) > 0)
         <div class="alert alert-danger">
+            <button type="button" class="close" data-dismiss="alert" align="left">x</button>
             <ul>
                 @foreach($errors->all() as $error)
                     <li>{{$error}}</li>
@@ -35,10 +36,10 @@
         <div class="links" align="center">
             </br>
             <a href="/">Home</a>
-            <a href="/socio/create">Cadastrar Sócio</a>
-            <a href="{{action('SocioController@index')}}">Lista de Sócios</a>
-            <a href="/clube/create">Cadastrar Clube</a>
-            <a href="{{action('ClubeController@index')}}">Lista de Clubes</a>
+            <a href="/socios/create">Cadastrar Sócio</a>
+            <a href="/socios">Lista de Sócios</a>
+            <a href="/clubes/create">Cadastrar Clube</a>
+            <a href="/clubes">Lista de Clubes</a>
         </div>
 </div>
 

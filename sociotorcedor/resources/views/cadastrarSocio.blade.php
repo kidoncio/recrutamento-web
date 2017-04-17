@@ -11,7 +11,7 @@
         </div>
 
         <div class="panel-body" align="center">
-            <form action="/socio" method="post" class="form-horizontal">
+            <form action="/socios" method="post" class="form-horizontal">
 
                 <fieldset>
                     <div class="container">

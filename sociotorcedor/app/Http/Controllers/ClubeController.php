@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\CadastroSocioRequest;
 use Illuminate\Http\Request;
+use App\Http\Requests\CadastroClubeRequest;
 use App\Clubes;
 
 class ClubeController extends Controller
@@ -15,16 +17,16 @@ class ClubeController extends Controller
         return view('clubes')->with('clubes', $clubes);
     }
 
-    public function store(Request $request)
+    public function store(CadastroClubeRequest $request)
     {
 
-        $clubeCadastrado = new Clubes;
+        $clubeSendoCadastrado = new Clubes;
 
-        $clubeCadastrado->nome = $request->nome;
+        $clubeSendoCadastrado->nome = $request->nome;
 
-        $clubeCadastrado->save();
+        $clubeSendoCadastrado->save();
 
-        return redirect(action('ClubeController@index'))->with('clubeCadastrado', $clubeCadastrado->nome);
+        return redirect('/clubes')->with('clubeCadastrado', $clubeSendoCadastrado->nome);
     }
 
     public function create()

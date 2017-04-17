@@ -83,10 +83,10 @@
                 </div>
 
                 <div class="links">
-                    <a href="/clube/create">Cadastrar Clube</a>
-                    <a href="/socio/create">Cadastrar Sócio</a>
-                    <a href="/socio">Lista de Sócios</a>
-                    <a href="/clube">Lista de Clubes</a>
+                    <a href="/clubes/create">Cadastrar Clube</a>
+                    <a href="/socios/create">Cadastrar Sócio</a>
+                    <a href="/socios">Lista de Sócios</a>
+                    <a href="/clubes">Lista de Clubes</a>
                 </div>
             </div>
         </div>

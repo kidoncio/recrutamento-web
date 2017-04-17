@@ -15,14 +15,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::group(['prefix' => 'socio'], function () {
+
+Route::group(['prefix' => 'socios'], function () {
     Route::get('/', 'SocioController@index');
     Route::post('/', 'SocioController@store');
     Route::delete('/', 'SocioController@destroy');
     Route::get('/create', 'SocioController@create');
 });
 
-Route::group(['prefix' => 'clube'], function () {
+Route::group(['prefix' => 'clubes'], function () {
     Route::get('/', 'ClubeController@index');
     Route::post('/', 'ClubeController@store');
     Route::delete('/', 'ClubeController@destroy');

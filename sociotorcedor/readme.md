@@ -1,3 +1,5 @@
+<p align="center"><img src="http://rondoniadigital.com/wp-content/uploads/2016/02/fut-ji-socio-torcedor-300x199.jpg"></p>
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">

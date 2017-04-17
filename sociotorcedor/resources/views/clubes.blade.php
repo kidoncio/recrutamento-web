@@ -5,27 +5,39 @@
 @endsection
 
 @section('conteudo')
-    @if(!empty(old('clubeExcluido')))
+
+    @if(!empty($clubeExcluido)))
         <div class="alert alert-success">
             <button type="button" class="close" data-dismiss="alert" align="left">x</button>
-            Clube {{old('clubeExcluido')}} foi deletado com sucesso.
+            Clube {{$clubeExcluido->nome}} foi deletado com sucesso.
             <br>
             <br>
         </div>
     @endif
-    @if(empty($clubes))
-        <div class="alert alert-danger">
+
+    @if(count($clubes) < 1)
+        <div class="alert alert-danger" align="center">
             Você não tem nenhum clube cadastrado.
+
+            <br>
+            <br>
+
+            <a href="/clubes/create">
+                <button type="submit" class="btn btn-primary" aria-label="Left Align">
+                <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>Clique aqui para Cadastrar
+                </button>
+            </a>
         </div>
 
     @else
         <h1 align="center">Clubes</h1>
         <table class="table table-striped table-bordered table-hover">
+
             @foreach ($clubes as $clube)
                 <tr>
                 <td>{{$clube->nome}}</td>
                 <td>
-                    <form action="/clube" method="POST">
+                    <form action="/clubes" method="POST">
 
                         {{ method_field('DELETE') }}
 
@@ -33,13 +45,14 @@
                         <input type="hidden" name="id" value="{{$clube->id}}">
 
                         <button type="submit" class="btn btn-danger" aria-label="Left Align">
-                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>Excluir
+                        <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>Excluir
                     </button>
 
                     </form>
                 </td>
                 </tr>
             @endforeach
+
         </table>
     @endif
 

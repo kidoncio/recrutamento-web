@@ -6,10 +6,10 @@
 
 @section('conteudo')
 
-    @if(!empty(old('socioCadastrado->nome')))
+    @if(!empty($socioCadastrado))
         <div class="alert alert-success">
             <button type="button" class="close" data-dismiss="alert" align="left">x</button>
-            Sócio {{old('socioCadastrado->nome')}} foi cadastrado com sucesso.
+            Sócio {{$socioCadastrado->nome}} cadastrado com sucesso.
             <br>
             <br>
         </div>
@@ -29,6 +29,7 @@
             Você não tem nenhum sócio cadastrado.
         </div>
     @else
+
         <h1 align="center">Sócios</h1>
         <table class="table table-striped table-bordered table-hover">
             <tr>
@@ -39,13 +40,9 @@
             @foreach ($socios as $socio)
                 <tr>
                     <td>{{$socio->nome}}</td>
-                    @foreach($clubes as $clube)
-                    @if($clube->id == $socio->clube_id)
-                    <td>{{$clube->nome}}</td>
-                    @endif
-                    @endforeach
+                    <td>{{$socio->clube->nome}}</td>
                     <td>
-                        <form action="/socio" method="POST">
+                        <form action="/socios" method="POST">
 
                             {{ method_field('DELETE') }}
 
@@ -61,6 +58,7 @@
                 </tr>
             @endforeach
         </table>
+
     @endif
 
 @endsection

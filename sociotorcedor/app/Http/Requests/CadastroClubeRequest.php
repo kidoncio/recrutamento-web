@@ -1,0 +1,27 @@
+<?php
+
+namespace App\Http\Requests;
+
+use Illuminate\Foundation\Http\FormRequest;
+
+class CadastroClubeRequest extends FormRequest
+{
+    public function authorize()
+    {
+        return true;
+    }
+
+    public function rules()
+    {
+        return [
+            'nome' => 'required|max:255',
+        ];
+    }
+
+    public function messages()
+    {
+        return[
+            'nome.required' => 'O Nome do Clube é obrigatório.',
+        ];
+    }
+}

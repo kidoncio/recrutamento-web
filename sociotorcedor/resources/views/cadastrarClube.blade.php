@@ -11,7 +11,7 @@
         </div>
 
         <div class="panel-body" align="center">
-            <form action="/clube" method="post" class="form-horizontal">
+            <form action="/clubes" method="post" class="form-horizontal">
 
                 <fieldset>
                     <div class="form-group">
