@@ -41,7 +41,13 @@
             @foreach ($socios as $socio)
                 <tr>
                     <td>{{$socio->nome}}</td>
-                    <td>{{$socio->clube->nome}}</td>
+                    <td>
+                        <a href="/clubes/show/{{$socio->clube->id}}">
+                            <button type="submit" class="btn btn-info" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>{{$socio->clube->nome}}
+                            </button>
+                        </a>
+                    </td>
                     <td>
                         <a href="/socios/show/{{$socio->id}}">
                             <button type="submit" class="btn btn-info" aria-label="Left Align">

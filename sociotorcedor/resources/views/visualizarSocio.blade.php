@@ -19,7 +19,7 @@
         </a>
     @else
 
-        @foreach($dadosDoSocio as $socio)
+            @foreach($dadosDoSocio as $socio)
         <h1 align="center">Sócio {{$socio->nome}}</h1>
         <table class="table table-striped table-bordered table-hover">
             <tr>
@@ -28,7 +28,13 @@
             </tr>
             <tr>
                 <td>{{$socio->nome}}</td>
-                <td>{{$socio->clube->nome}}</td>
+                <td>
+                    <a href="/clubes/show/{{$socio->clube->id}}">
+                        <button type="submit" class="btn btn-info" aria-label="Left Align">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>{{$socio->clube->nome}}
+                        </button>
+                    </a>
+                </td>
             </tr>
         </table>
         <br>

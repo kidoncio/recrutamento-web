@@ -12,29 +12,37 @@
         </div>
         <br>
         <br>
-        <a href="/socios">
+        <a href="/clubes">
             <button type="submit" class="btn btn-primary" aria-label="Left Align">
                 <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>Voltar
             </button>
         </a>
     @else
 
-        {{dd($dadosDoClube)}}
-
 
         @foreach($dadosDoClube as $clube)
             <h1 align="center">{{$clube->nome}}</h1>
             <table class="table table-striped table-bordered table-hover">
                 <tr>
-                    <td>Sócios</td>
+                    <td align="center"><h4>Sócios</h4></td>
+                    <td align="center"><h4>Ações</h4></td>
                 </tr>
+                @foreach($clube->socios as $socio)
                 <tr>
-                    <td>{{$clube->socios->nome}}</td>
+                    <td>{{$socio->nome}}</td>
+                    <td>
+                        <a href="/socios/show/{{$socio->id}}">
+                            <button type="submit" class="btn btn-info" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>Informações
+                            </button>
+                        </a>
+                    </td>
                 </tr>
+                @endforeach
             </table>
             <br>
             <div class="button" align="center">
-                <a href="/socios">
+                <a href="/clubes">
                     <button type="submit" class="btn btn-primary">
                         <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>Voltar
                     </button>
