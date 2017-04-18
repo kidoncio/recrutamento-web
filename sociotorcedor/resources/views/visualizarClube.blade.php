@@ -31,7 +31,7 @@
                 <tr>
                     <td>{{$socio->nome}}</td>
                     <td>
-                        <a href="/socios/show/{{$socio->id}}">
+                        <a href="/socios/{{$socio->id}}">
                             <button type="submit" class="btn btn-info" aria-label="Left Align">
                                 <span class="glyphicon glyphicon-search" aria-hidden="true"></span>Informações
                             </button>

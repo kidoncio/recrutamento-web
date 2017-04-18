@@ -18,7 +18,7 @@ Route::get('/', function () {
 
 Route::group(['prefix' => 'socios'], function () {
     Route::get('/', 'SocioController@index');
-    Route::get('/show/{id}', 'SocioController@visualizarSocio');
+    Route::get('/{id}', 'SocioController@show');
     Route::post('/', 'SocioController@store');
     Route::delete('/', 'SocioController@destroy');
     Route::get('/create', 'SocioController@create');
@@ -26,7 +26,7 @@ Route::group(['prefix' => 'socios'], function () {
 
 Route::group(['prefix' => 'clubes'], function () {
     Route::get('/', 'ClubeController@index');
-    Route::get('/show/{id}', 'ClubeController@visualizarClube');
+    Route::get('/{id}', 'ClubeController@show');
     Route::post('/', 'ClubeController@store');
     Route::delete('/', 'ClubeController@destroy');
     Route::get('/create', 'ClubeController@create');

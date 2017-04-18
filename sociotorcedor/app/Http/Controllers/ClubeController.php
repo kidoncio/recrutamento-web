@@ -15,7 +15,7 @@ class ClubeController extends Controller
         return view('clubes')->with('clubes', $clubes);
     }
 
-    public function visualizarClube(Request $request)
+    public function show(Request $request)
     {
         $clubeId = $request->id;
 

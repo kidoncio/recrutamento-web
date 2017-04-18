@@ -16,7 +16,7 @@ class SocioController extends Controller
         return view('socios')->with('socios', $socios);
     }
 
-    public function visualizarSocio(Request $request)
+    public function show(Request $request)
     {
         $socioId = $request->id;
 
