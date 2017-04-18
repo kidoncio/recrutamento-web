@@ -1,13 +1,13 @@
 @extends('template')
 
 @section('title')
-    Cadastro de Clubes
+    Cadastro de Sócio
 @endsection
 
 @section('conteudo')
     <div class="panel panel-default">
         <div class="panel-heading">
-            <h3 class="panel-title text-center">Cadastrar Sócio</h3>
+            <h3 class="panel-title text-center">Cadastro de Socio Torcedor</h3>
         </div>
 
         <div class="panel-body" align="center">

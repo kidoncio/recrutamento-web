@@ -25,7 +25,7 @@
                 <input type="hidden" name="_token" value="{{ csrf_token() }}"/>
                 <button type="submit" class="btn btn-primary">Cadastrar</button>
 
-                <a class="btn btn-sm btn-default" href="/clube">Cancelar</a>
+                <a class="btn btn-sm btn-default" href="/clubes">Cancelar</a>
             </form>
         </div>
     </div>

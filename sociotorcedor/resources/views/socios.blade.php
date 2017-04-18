@@ -6,25 +6,25 @@
 
 @section('conteudo')
 
-    @if(!empty($socioCadastrado))
+    @if((session('socioCadastrado')))
         <div class="alert alert-success">
             <button type="button" class="close" data-dismiss="alert" align="left">x</button>
-            Sócio {{$socioCadastrado->nome}} cadastrado com sucesso.
-            <br>
+            Sócio {{session('socioCadastrado')}} cadastrado com sucesso.
+                <br>
             <br>
         </div>
     @endif
 
-    @if(!empty($socioDeletado))
+    @if(session('socioDeletado'))
         <div class="alert alert-danger">
             <button type="button" class="close" data-dismiss="alert" align="left">x</button>
-            Sócio deletado com sucesso.
+            Sócio {{session('socioDeletado')}} deletado com sucesso.
             <br>
             <br>
         </div>
     @endif
 
-    @if(empty($socios))
+    @if(count($socios) < 1)
         <div class="alert alert-danger">
             Você não tem nenhum sócio cadastrado.
         </div>
@@ -35,12 +35,20 @@
             <tr>
                 <td>Sócio</td>
                 <td>Clube</td>
+                <td>Informações</td>
                 <td>Ações</td>
             </tr>
             @foreach ($socios as $socio)
                 <tr>
                     <td>{{$socio->nome}}</td>
                     <td>{{$socio->clube->nome}}</td>
+                    <td>
+                        <a href="/socios/show/{{$socio->id}}">
+                            <button type="submit" class="btn btn-info" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>Informações
+                            </button>
+                        </a>
+                    </td>
                     <td>
                         <form action="/socios" method="POST">
 
@@ -50,7 +58,7 @@
                             <input type="hidden" name="id" value="{{$socio->id}}">
 
                             <button type="submit" class="btn btn-danger" aria-label="Left Align">
-                                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>Excluir
+                                <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>Excluir
                             </button>
 
                         </form>

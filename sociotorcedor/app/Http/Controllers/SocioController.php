@@ -4,47 +4,51 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Requests\CadastroSocioRequest;
-use App\Socios;
-use App\Clubes;
+use App\Socio;
+use App\Clube;
 
 class SocioController extends Controller
 {
     public function index()
     {
-        $socios = Socios::all();
+        $socios = Socio::with('clube')->get();
 
         return view('socios')->with('socios', $socios);
     }
 
+    public function visualizarSocio(Request $request)
+    {
+        $socioId = $request->id;
+
+        $dadosDoSocio = Socio::with('clube')->where('id', $socioId)->get();
+
+        return view('visualizarSocio')->with('dadosDoSocio', $dadosDoSocio);
+    }
+
     public function create()
     {
-        $clubes = Clubes::orderBy('nome', 'ASC')->get();
+        $clubes = Clube::orderBy('nome', 'ASC')->get();
 
         return view('cadastrarSocio')->with('clubes', $clubes);
     }
 
     public function store(CadastroSocioRequest $request)
     {
-        $socioSendoCadastrado = new Socios;
+        $socioSendoCadastrado = new Socio;
 
         $socioSendoCadastrado->nome = $request->nome;
         $socioSendoCadastrado->clube()->associate($request->clube);
-
         $socioSendoCadastrado->save();
 
-        $socios = Socios::all();
-
-        return view('/socios')->with('socios', $socios)->with('socioCadastrado', $socioSendoCadastrado);
+        return redirect('socios')->with('socioCadastrado', $socioSendoCadastrado->nome);
     }
 
     public function destroy(Request $request)
     {
         $socioId = $request->id;
 
-        $socioDeletado = Socios::find($socioId)->delete();
+        $socioDeletado = Socio::find($socioId)->delete();
 
-        $socios = Socios::all();
-
-        return view('socios')->with('socioDeletado', $socioDeletado)->with('socios', $socios);
+        return redirect('socios')->with('socioDeletado', $socioDeletado->nome);
     }
 }

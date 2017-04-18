@@ -20,6 +20,7 @@ class CreateSociosTable extends Migration
 
             $table->integer('clube_id')->index();
             $table->foreign('clube_id')->references('id')->on('clubes');
+            $table->softDeletes();
 
             $table->timestamps();
         });

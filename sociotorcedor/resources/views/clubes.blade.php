@@ -6,13 +6,22 @@
 
 @section('conteudo')
 
-    @if(!empty($clubeExcluido)))
+    @if(session('clubeDeletado'))
         <div class="alert alert-success">
             <button type="button" class="close" data-dismiss="alert" align="left">x</button>
-            Clube {{$clubeExcluido->nome}} foi deletado com sucesso.
+            Clube {{session('clubeDeletado')}} deletado com sucesso.
             <br>
             <br>
         </div>
+    @endif
+
+    @if(session('clubeCadastrado'))
+    <div class="alert alert-success">
+        <button type="button" class="close" data-dismiss="alert" align="left">x</button>
+        Clube {{session('clubeCadastrado')}} deletado com sucesso.
+        <br>
+        <br>
+    </div>
     @endif
 
     @if(count($clubes) < 1)

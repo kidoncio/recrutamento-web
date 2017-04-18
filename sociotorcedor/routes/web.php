@@ -18,6 +18,7 @@ Route::get('/', function () {
 
 Route::group(['prefix' => 'socios'], function () {
     Route::get('/', 'SocioController@index');
+    Route::get('/show/{id}', 'SocioController@visualizarSocio');
     Route::post('/', 'SocioController@store');
     Route::delete('/', 'SocioController@destroy');
     Route::get('/create', 'SocioController@create');
