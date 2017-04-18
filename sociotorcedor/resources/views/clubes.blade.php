@@ -45,6 +45,13 @@
             @foreach ($clubes as $clube)
                 <tr>
                 <td>{{$clube->nome}}</td>
+                    <td>
+                        <a href="/clubes/show/{{$clube->id}}">
+                            <button type="submit" class="btn btn-info" aria-label="Left Align">
+                                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>Informações
+                            </button>
+                        </a>
+                    </td>
                 <td>
                     <form action="/clubes" method="POST">
 

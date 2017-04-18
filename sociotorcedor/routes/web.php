@@ -26,6 +26,7 @@ Route::group(['prefix' => 'socios'], function () {
 
 Route::group(['prefix' => 'clubes'], function () {
     Route::get('/', 'ClubeController@index');
+    Route::get('/show/{id}', 'ClubeController@visualizarClube');
     Route::post('/', 'ClubeController@store');
     Route::delete('/', 'ClubeController@destroy');
     Route::get('/create', 'ClubeController@create');
