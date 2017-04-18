@@ -21,7 +21,7 @@ class ClubeController extends Controller
 
         $dadosDoClube = Clube::with('socios')->where('id', $clubeId)->get();
 
-        return view('visualizarClube')->with('dadosDoClube', $dadosDoClube);
+        return view('showClube')->with('dadosDoClube', $dadosDoClube);
     }
 
     public function store(CadastroClubeRequest $request)

@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="579e868d-3f7e-438a-b3b2-d6f074a09570" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sociotorcedor/resources/views/visualizarClube.blade.php" afterPath="$PROJECT_DIR$/sociotorcedor/resources/views/showClube.blade.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sociotorcedor/resources/views/visualizarSocio.blade.php" afterPath="$PROJECT_DIR$/sociotorcedor/resources/views/showSocio.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sociotorcedor/app/Http/Controllers/ClubeController.php" afterPath="$PROJECT_DIR$/sociotorcedor/app/Http/Controllers/ClubeController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sociotorcedor/app/Http/Controllers/SocioController.php" afterPath="$PROJECT_DIR$/sociotorcedor/app/Http/Controllers/SocioController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sociotorcedor/resources/views/clubes.blade.php" afterPath="$PROJECT_DIR$/sociotorcedor/resources/views/clubes.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sociotorcedor/resources/views/socios.blade.php" afterPath="$PROJECT_DIR$/sociotorcedor/resources/views/socios.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sociotorcedor/resources/views/visualizarClube.blade.php" afterPath="$PROJECT_DIR$/sociotorcedor/resources/views/visualizarClube.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sociotorcedor/resources/views/visualizarSocio.blade.php" afterPath="$PROJECT_DIR$/sociotorcedor/resources/views/visualizarSocio.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sociotorcedor/routes/web.php" afterPath="$PROJECT_DIR$/sociotorcedor/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -104,12 +102,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="socios.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sociotorcedor/resources/views/socios.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+            <state relative-caret-position="400">
+              <caret line="55" column="28" lean-forward="false" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
               <folding>
                 <marker date="1492537907477" expanded="true" signature="9:19" ph="..." />
                 <marker date="1492537907477" expanded="true" signature="31:38" ph="..." />
@@ -128,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="visualizarClube.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sociotorcedor/resources/views/visualizarClube.blade.php">
+      <file leaf-file-name="showClube.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sociotorcedor/resources/views/showClube.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+            <state relative-caret-position="179">
+              <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
               <folding>
                 <marker date="1492537942414" expanded="true" signature="9:19" ph="..." />
                 <marker date="1492537942414" expanded="true" signature="31:38" ph="..." />
@@ -149,8 +147,8 @@
       <file leaf-file-name="ClubeController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sociotorcedor/app/Http/Controllers/ClubeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+            <state relative-caret-position="162">
+              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -158,40 +156,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clubes.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sociotorcedor/resources/views/clubes.blade.php">
+      <file leaf-file-name="SocioController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sociotorcedor/app/Http/Controllers/SocioController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="48" column="40" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+            <state relative-caret-position="289">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
-                <marker date="1492537980089" expanded="true" signature="9:19" ph="..." />
-                <marker date="1492537980089" expanded="true" signature="31:38" ph="..." />
-                <marker date="1492537980089" expanded="true" signature="82:92" ph="..." />
-                <marker date="1492537980089" expanded="true" signature="284:308" ph="..." />
-                <marker date="1492537980089" expanded="true" signature="573:599" ph="..." />
-                <marker date="1492537980089" expanded="true" signature="1341:1353" ph="..." />
-                <marker date="1492537980089" expanded="true" signature="1429:1439" ph="..." />
-                <marker date="1492537980089" expanded="true" signature="1850:1874" ph="..." />
-                <marker date="1492537980089" expanded="true" signature="1946:1960" ph="..." />
-                <marker date="1492537980089" expanded="true" signature="2029:2039" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cadastrarSocio.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sociotorcedor/resources/views/cadastrarSocio.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <marker date="1492514149721" expanded="true" signature="9:19" ph="..." />
-                <marker date="1492514149721" expanded="true" signature="31:38" ph="..." />
-                <marker date="1492514149721" expanded="true" signature="84:94" ph="..." />
-                <marker date="1492514149721" expanded="true" signature="755:782" ph="..." />
-                <marker date="1492514149721" expanded="true" signature="1238:1248" ph="..." />
-                <marker date="1492514149721" expanded="true" signature="1254:1266" ph="..." />
-                <marker date="1492514149721" expanded="true" signature="1550:1564" ph="..." />
+                <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -242,13 +213,13 @@
         <option value="$PROJECT_DIR$/sociotorcedor/app/Socio.php" />
         <option value="$PROJECT_DIR$/sociotorcedor/resources/views/socio.blade.php" />
         <option value="$PROJECT_DIR$/sociotorcedor/resources/views/detalhesSocio.blade.php" />
-        <option value="$PROJECT_DIR$/sociotorcedor/app/Http/Controllers/ClubeController.php" />
         <option value="$PROJECT_DIR$/sociotorcedor/resources/views/socios.blade.php" />
         <option value="$PROJECT_DIR$/sociotorcedor/routes/web.php" />
-        <option value="$PROJECT_DIR$/sociotorcedor/app/Http/Controllers/SocioController.php" />
         <option value="$PROJECT_DIR$/sociotorcedor/resources/views/visualizarClube.blade.php" />
         <option value="$PROJECT_DIR$/sociotorcedor/resources/views/visualizarSocio.blade.php" />
         <option value="$PROJECT_DIR$/sociotorcedor/resources/views/clubes.blade.php" />
+        <option value="$PROJECT_DIR$/sociotorcedor/app/Http/Controllers/ClubeController.php" />
+        <option value="$PROJECT_DIR$/sociotorcedor/app/Http/Controllers/SocioController.php" />
       </list>
     </option>
   </component>
@@ -283,6 +254,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -417,8 +390,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -530,17 +501,17 @@
       <updated>1492434851920</updated>
       <workItem from="1492434855930" duration="20502000" />
       <workItem from="1492513369898" duration="18106000" />
+      <workItem from="1492538949734" duration="415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38608000" />
+    <option name="totallyTimeSpent" value="39023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -549,13 +520,14 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21775898" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21775898" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -595,6 +567,98 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sociotorcedor/resources/views/socios.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="28" lean-forward="false" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+          <folding>
+            <marker date="1492537907477" expanded="true" signature="9:19" ph="..." />
+            <marker date="1492537907477" expanded="true" signature="31:38" ph="..." />
+            <marker date="1492537907477" expanded="true" signature="86:96" ph="..." />
+            <marker date="1492537907477" expanded="true" signature="292:318" ph="..." />
+            <marker date="1492537907477" expanded="true" signature="598:622" ph="..." />
+            <marker date="1492537907477" expanded="true" signature="1216:1228" ph="..." />
+            <marker date="1492537907477" expanded="true" signature="1304:1321" ph="..." />
+            <marker date="1492537907477" expanded="true" signature="1523:1542" ph="..." />
+            <marker date="1492537907477" expanded="true" signature="1706:1716" ph="..." />
+            <marker date="1492537907477" expanded="true" signature="2139:2163" ph="..." />
+            <marker date="1492537907477" expanded="true" signature="2239:2253" ph="..." />
+            <marker date="1492537907477" expanded="true" signature="2326:2336" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sociotorcedor/resources/views/showClube.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+          <folding>
+            <marker date="1492537942414" expanded="true" signature="9:19" ph="..." />
+            <marker date="1492537942414" expanded="true" signature="31:38" ph="..." />
+            <marker date="1492537942414" expanded="true" signature="87:97" ph="..." />
+            <marker date="1492537942414" expanded="true" signature="567:579" ph="..." />
+            <marker date="1492537942414" expanded="true" signature="575:579" ph="..." />
+            <marker date="1492537942414" expanded="true" signature="922:934" ph="..." />
+            <marker date="1492537942414" expanded="true" signature="1010:1020" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sociotorcedor/resources/views/clubes.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="40" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding>
+            <marker date="1492537980089" expanded="true" signature="9:19" ph="..." />
+            <marker date="1492537980089" expanded="true" signature="31:38" ph="..." />
+            <marker date="1492537980089" expanded="true" signature="82:92" ph="..." />
+            <marker date="1492537980089" expanded="true" signature="284:308" ph="..." />
+            <marker date="1492537980089" expanded="true" signature="573:599" ph="..." />
+            <marker date="1492537980089" expanded="true" signature="1341:1353" ph="..." />
+            <marker date="1492537980089" expanded="true" signature="1429:1439" ph="..." />
+            <marker date="1492537980089" expanded="true" signature="1850:1874" ph="..." />
+            <marker date="1492537980089" expanded="true" signature="1946:1960" ph="..." />
+            <marker date="1492537980089" expanded="true" signature="2029:2039" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sociotorcedor/resources/views/cadastrarSocio.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <marker date="1492514149721" expanded="true" signature="9:19" ph="..." />
+            <marker date="1492514149721" expanded="true" signature="31:38" ph="..." />
+            <marker date="1492514149721" expanded="true" signature="84:94" ph="..." />
+            <marker date="1492514149721" expanded="true" signature="755:782" ph="..." />
+            <marker date="1492514149721" expanded="true" signature="1238:1248" ph="..." />
+            <marker date="1492514149721" expanded="true" signature="1254:1266" ph="..." />
+            <marker date="1492514149721" expanded="true" signature="1550:1564" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sociotorcedor/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding>
+            <element signature="e#7#389#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sociotorcedor/app/Http/Controllers/ClubeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -610,7 +674,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -658,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1202">
           <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,7 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -682,7 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-153">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -690,7 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -698,7 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-816">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -706,7 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -714,7 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -722,7 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -730,33 +785,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sociotorcedor/app/Socios.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sociotorcedor/app/Clubes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sociotorcedor/app/Socios.php" />
+    <entry file="file://$PROJECT_DIR$/sociotorcedor/app/Clubes.php" />
     <entry file="file://$PROJECT_DIR$/sociotorcedor/database/migrations/2017_04_13_170546_create_socios_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#45#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -764,9 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#7#45#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -774,7 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,16 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sociotorcedor/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding>
-            <element signature="e#7#389#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sociotorcedor/app/Socio.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -806,43 +829,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sociotorcedor/resources/views/visualizarSocio.blade.php">
+    <entry file="file://$PROJECT_DIR$/sociotorcedor/resources/views/showSocio.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding>
-            <marker date="1492537954176" expanded="true" signature="9:19" ph="..." />
-            <marker date="1492537954176" expanded="true" signature="31:38" ph="..." />
-            <marker date="1492537954176" expanded="true" signature="87:97" ph="..." />
-            <marker date="1492537954176" expanded="true" signature="560:566" ph="..." />
-            <marker date="1492537954176" expanded="true" signature="560:572" ph="..." />
-            <marker date="1492537954176" expanded="true" signature="787:799" ph="..." />
-            <marker date="1492537954176" expanded="true" signature="867:884" ph="..." />
-            <marker date="1492537954176" expanded="true" signature="1078:1097" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sociotorcedor/resources/views/visualizarClube.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-          <folding>
-            <marker date="1492537942414" expanded="true" signature="9:19" ph="..." />
-            <marker date="1492537942414" expanded="true" signature="31:38" ph="..." />
-            <marker date="1492537942414" expanded="true" signature="87:97" ph="..." />
-            <marker date="1492537942414" expanded="true" signature="567:579" ph="..." />
-            <marker date="1492537942414" expanded="true" signature="575:579" ph="..." />
-            <marker date="1492537942414" expanded="true" signature="922:934" ph="..." />
-            <marker date="1492537942414" expanded="true" signature="1010:1020" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sociotorcedor/resources/views/cadastrarSocio.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <marker date="1492514149721" expanded="true" signature="9:19" ph="..." />
             <marker date="1492514149721" expanded="true" signature="31:38" ph="..." />
@@ -855,10 +852,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sociotorcedor/resources/views/template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="106" lean-forward="false" selection-start-line="8" selection-start-column="106" selection-end-line="8" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sociotorcedor/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding>
+            <element signature="e#7#389#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sociotorcedor/resources/views/clubes.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="48" column="40" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+        <state relative-caret-position="221">
+          <caret line="48" column="40" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
           <folding>
             <marker date="1492537980089" expanded="true" signature="9:19" ph="..." />
             <marker date="1492537980089" expanded="true" signature="31:38" ph="..." />
@@ -874,35 +888,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sociotorcedor/resources/views/template.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="106" lean-forward="false" selection-start-line="8" selection-start-column="106" selection-end-line="8" selection-end-column="106" />
-          <folding>
-            <marker date="1492514533459" expanded="true" signature="168:175" ph="..." />
-            <marker date="1492514533459" expanded="true" signature="484:494" ph="..." />
-            <marker date="1492514533459" expanded="true" signature="792:798" ph="..." />
-            <marker date="1492514533459" expanded="true" signature="962:976" ph="..." />
-            <marker date="1492514533459" expanded="true" signature="1021:1031" ph="..." />
-            <marker date="1492514533459" expanded="true" signature="1508:1517" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sociotorcedor/app/Http/Controllers/SocioController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sociotorcedor/resources/views/socios.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+        <state relative-caret-position="400">
+          <caret line="55" column="28" lean-forward="false" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
           <folding>
             <marker date="1492537907477" expanded="true" signature="9:19" ph="..." />
             <marker date="1492537907477" expanded="true" signature="31:38" ph="..." />
@@ -920,10 +909,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sociotorcedor/resources/views/showClube.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <marker date="1492537942414" expanded="true" signature="9:19" ph="..." />
+            <marker date="1492537942414" expanded="true" signature="31:38" ph="..." />
+            <marker date="1492537942414" expanded="true" signature="87:97" ph="..." />
+            <marker date="1492537942414" expanded="true" signature="567:579" ph="..." />
+            <marker date="1492537942414" expanded="true" signature="575:579" ph="..." />
+            <marker date="1492537942414" expanded="true" signature="922:934" ph="..." />
+            <marker date="1492537942414" expanded="true" signature="1010:1020" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sociotorcedor/app/Http/Controllers/SocioController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sociotorcedor/app/Http/Controllers/ClubeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        <state relative-caret-position="162">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>

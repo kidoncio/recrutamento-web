@@ -22,7 +22,7 @@ class SocioController extends Controller
 
         $dadosDoSocio = Socio::with('clube')->where('id', $socioId)->get();
 
-        return view('visualizarSocio')->with('dadosDoSocio', $dadosDoSocio);
+        return view('showSocio')->with('dadosDoSocio', $dadosDoSocio);
     }
 
     public function create()
