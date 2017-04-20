@@ -44,28 +44,28 @@
 
             @foreach ($clubes as $clube)
                 <tr>
-                <td>{{$clube->nome}}</td>
+                    <td>{{$clube->nome}}</td>
                     <td>
-                        <a href="/clubes/{{$clube->id}}">
-                            <button type="submit" class="btn btn-info" aria-label="Left Align">
-                                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>Informações
-                            </button>
-                        </a>
+                        <div class="btn-group" role="group" aria-label="...">
+                            <a href="/clubes/{{$clube->id}}">
+                                <button type="submit" class="btn btn-info" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>Informações
+                                </button>
+                            </a>
+                            <form action="/clubes" method="POST">
+
+                                {{ method_field('DELETE') }}
+
+                                <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                <input type="hidden" name="id" value="{{$clube->id}}">
+
+                                <button type="submit" class="btn btn-danger" aria-label="Left Align">
+                                    <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>Excluir
+                                </button>
+
+                            </form>
+                        </div>
                     </td>
-                <td>
-                    <form action="/clubes" method="POST">
-
-                        {{ method_field('DELETE') }}
-
-                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                        <input type="hidden" name="id" value="{{$clube->id}}">
-
-                        <button type="submit" class="btn btn-danger" aria-label="Left Align">
-                        <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>Excluir
-                    </button>
-
-                    </form>
-                </td>
                 </tr>
             @endforeach
 
